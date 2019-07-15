@@ -1,0 +1,18 @@
+//
+//  Second.xcconfig
+//  Practice_Divid
+//
+//  Created by kimjiseob on 15/07/2019.
+//  Copyright © 2019 kimjiseob. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+#include "../../Pods/Target Support Files/Pods-Practice_Divid/Pods-Practice_Divid.debug.xcconfig"
+
+
+APP_DISPLAY_NAME = Divide_Dis
+PRODUCT_BUNDLE_IDENTIFIER = com.KJS.Practice-Divid-Dis
+SERVER_URL = https:/$()/Distribution.com

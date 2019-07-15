@@ -6,6 +6,7 @@ target 'Practice_Divid' do
   # Pods for Practice_Divid
 	pod 'RxSwift'
 	pod 'RxCocoa'
+	pod 'Alamofire'
 
   target 'Practice_DividTests' do
     inherit! :search_paths

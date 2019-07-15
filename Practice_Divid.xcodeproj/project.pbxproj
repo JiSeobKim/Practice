@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		629C7DE254389474C9D3D6D3 /* libPods-Practice_DividUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C4BC8988065D12A5566EA /* libPods-Practice_DividUITests.a */; };
 		6A608B1E5723643C17BC7D34 /* libPods-Practice_DividTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F5EE15C979110E053BE83D /* libPods-Practice_DividTests.a */; };
+		6BDD9B2422DC456F007BDA19 /* Custom_Debug_DisURL.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6BDD9B2322DC456F007BDA19 /* Custom_Debug_DisURL.xcconfig */; };
+		6BDD9B2622DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6BDD9B2522DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig */; };
+		6BDD9B2722DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6BDD9B2522DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig */; };
+		6BDD9B2822DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6BDD9B2522DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig */; };
 		6BE9D5B922DC3D5300946CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D5B822DC3D5300946CE8 /* AppDelegate.swift */; };
 		6BE9D5BB22DC3D5300946CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D5BA22DC3D5300946CE8 /* ViewController.swift */; };
 		6BE9D5BE22DC3D5300946CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE9D5BC22DC3D5300946CE8 /* Main.storyboard */; };
@@ -41,6 +45,8 @@
 		007F7E656BBE92430E7D9C3F /* Pods-Practice_Divid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_Divid.release.xcconfig"; path = "Target Support Files/Pods-Practice_Divid/Pods-Practice_Divid.release.xcconfig"; sourceTree = "<group>"; };
 		3C1004A3395481C6F4E716E7 /* Pods-Practice_DividUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_DividUITests.debug.xcconfig"; path = "Target Support Files/Pods-Practice_DividUITests/Pods-Practice_DividUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4959625E3F73F96E2F3B67F9 /* Pods-Practice_DividTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_DividTests.release.xcconfig"; path = "Target Support Files/Pods-Practice_DividTests/Pods-Practice_DividTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BDD9B2322DC456F007BDA19 /* Custom_Debug_DisURL.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Custom_Debug_DisURL.xcconfig; sourceTree = "<group>"; };
+		6BDD9B2522DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Custom_Debug_DevURL.xcconfig; sourceTree = "<group>"; };
 		6BE9D5B522DC3D5300946CE8 /* Practice_Divid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_Divid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE9D5B822DC3D5300946CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BE9D5BA22DC3D5300946CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BDD9B2222DC456F007BDA19 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6BDD9B2322DC456F007BDA19 /* Custom_Debug_DisURL.xcconfig */,
+				6BDD9B2522DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		6BE9D5AC22DC3D5300946CE8 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +138,7 @@
 				6BE9D5C422DC3D5400946CE8 /* LaunchScreen.storyboard */,
 				6BE9D5C722DC3D5400946CE8 /* Info.plist */,
 				6BE9D5BF22DC3D5300946CE8 /* Practice_Divid.xcdatamodeld */,
+				6BDD9B2222DC456F007BDA19 /* Config */,
 			);
 			path = Practice_Divid;
 			sourceTree = "<group>";
@@ -155,7 +171,6 @@
 				3C1004A3395481C6F4E716E7 /* Pods-Practice_DividUITests.debug.xcconfig */,
 				BA2BA51FBC69DEF57BAB700E /* Pods-Practice_DividUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE9D5C622DC3D5400946CE8 /* LaunchScreen.storyboard in Resources */,
+				6BDD9B2622DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig in Resources */,
 				6BE9D5C322DC3D5400946CE8 /* Assets.xcassets in Resources */,
+				6BDD9B2422DC456F007BDA19 /* Custom_Debug_DisURL.xcconfig in Resources */,
 				6BE9D5BE22DC3D5300946CE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDD9B2722DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDD9B2822DC4938007BDA19 /* Custom_Debug_DevURL.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +504,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SERVER_URL = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -539,6 +559,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SERVER_URL = "$(inherited)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -547,8 +568,9 @@
 		};
 		6BE9D5E122DC3D5400946CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942959057C8214B6855A86C5 /* Pods-Practice_Divid.debug.xcconfig */;
+			baseConfigurationReference = 6BDD9B2322DC456F007BDA19 /* Custom_Debug_DisURL.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 689KAW4595;
@@ -557,8 +579,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KJS.Practice-Divid";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SERVER_URL = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -566,8 +589,9 @@
 		};
 		6BE9D5E222DC3D5400946CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 007F7E656BBE92430E7D9C3F /* Pods-Practice_Divid.release.xcconfig */;
+			baseConfigurationReference = 942959057C8214B6855A86C5 /* Pods-Practice_Divid.debug.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 689KAW4595;
@@ -576,8 +600,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.KJS.Practice-Divid";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SERVER_URL = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
