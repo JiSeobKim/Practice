@@ -1,0 +1,6 @@
+module Pods_Practice_Divid {
+  umbrella header "Pods-Practice_Divid-umbrella.h"
+
+  export *
+  module * { export * }
+}
